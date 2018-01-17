@@ -1,0 +1,55 @@
+body {
+    background: #F7F7F7;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.menu-navigation {
+    float: left;
+    border: 1px solid black;
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    border-top: 0px;
+}
+
+.list:nth-child(n) {
+    list-style-type: none;
+}
+
+.list {
+    padding-left: 0px;
+}
+
+li {
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 14px;
+    color: rgb(126, 119, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(126, 119, 119);
+}
+
+li.active {
+    background-color: #EEEEEE;
+    color: rgb(63, 61, 61);
+}
+
+li:hover {
+    background-color: #EEEEEE;
+    color: rgb(26, 23, 23);
+    cursor: pointer;
+}
